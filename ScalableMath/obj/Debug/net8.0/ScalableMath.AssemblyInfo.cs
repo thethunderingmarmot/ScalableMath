@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScalableMath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a198582bab2b84971b85c9cd33d282cbc878ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff98ac95d21ad8118f1bc8b88404904469cb4c45")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScalableMath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScalableMath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

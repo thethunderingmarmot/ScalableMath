@@ -1,12 +1,13 @@
+
 namespace ScalableMath;
 
 public partial interface INumber {
-    private class ByteList : INumber
+    private class ByteArrayNumber : INumber
     {
-        private List<byte> _bytes;
+        private byte[] _bytes;
         public IList<byte> Bytes => _bytes;
 
-        private ByteList() {
+        private ByteArrayNumber() {
             _bytes = [0x00];
         }
 
