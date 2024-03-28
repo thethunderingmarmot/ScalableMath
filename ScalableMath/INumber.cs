@@ -1,12 +1,17 @@
+using System.Numerics;
+
 namespace ScalableMath;
 
 public partial interface INumber {
-    public void Add(INumber number);
-    public void Subtract(INumber number);
-    public void Divide(INumber number);
-    public void Multiply(INumber number);
+    public IList<byte> Bytes { get; }
 
-    public static INumber Numberify(int number) {
-        return new ByteArrayNumber(number);
+    public INumber Add(INumber number);
+    public INumber Subtract(INumber number);
+    public INumber Divide(INumber number);
+    public INumber Multiply(INumber number);
+
+    public static INumber Numberify(int number)
+    {
+        return null;
     }
 }
