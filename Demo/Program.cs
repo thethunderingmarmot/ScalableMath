@@ -3,8 +3,8 @@ using ScalableMath;
 
 Console.WriteLine("Hello, World!");
 
-INumber number1 = INumber.Numberify(5);
-INumber number2 = INumber.Numberify(3);
+INumber number1 = INumber.GetPerformantNumber();
+INumber number2 = INumber.GetLimitlessNumber();
 
 number1.Add(number2);
 Console.WriteLine(number1);
